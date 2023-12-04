@@ -38,6 +38,7 @@ async function reply(msg) {
     temperature: 0.5,
     frequency_penalty: 0.5,
   });
+  console.log(response.choices[0].message.content);
   return response.choices[0].message.content;
 }
 

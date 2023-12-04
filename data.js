@@ -40,8 +40,8 @@ const { createEmbedding } = require("./utils");
 
 async function splitDocuments(content) {
   const splitter = new RecursiveCharacterTextSplitter({
-    chunkSize: 300,
-    chunkOverlap: 30,
+    chunkSize: 200,
+    chunkOverlap: 15,
   });
 
   const output = await splitter.createDocuments([content]);
