@@ -1,6 +1,11 @@
 # whatsapp-chatbot
 Chat with AI from your whatsapp. (Just like ChatGPT but inside whatsapp with a Custom Knowledge base)
 
+
+https://github.com/sojinsamuel/whatsapp-chatbot/assets/77185816/68da7713-fd41-46a0-aad3-c71ff342a422
+
+
+
 To get started. Execute:
 ```bash 
 npm i
